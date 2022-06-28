@@ -1,0 +1,192 @@
+body {
+    background: #eaeaea url(/images/body.png);
+    margin: 20px 30px;
+    font-family: sans-serif;
+}
+
+#entete {
+    background: #9f9f9f url(/images/entete.png);
+    border: 3px solid black;
+    border-bottom: none;
+}
+#entete {
+    background-position: 0 1px;
+}
+#page {
+    background-position: 1px;
+}
+
+h1 {
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 3px solid black;
+    margin: 0;
+    text-align: center;
+    background: url(/images/h1.png) 50% 50% no-repeat;
+    text-indent: -32000px;
+}
+
+.bouton {
+    background: url(/images/bouton-gauche.png);
+    float: left;
+    margin: 7px;
+}
+
+.bouton div {
+    background: url(/images/bouton-droite.png) 100% 0 no-repeat;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: white;
+}
+
+.boite {
+    background: #f0f0f0 url(/images/cadre-haut-gauche.png);
+    margin: 7px;
+}
+
+.boite div {
+    background: url(/images/cadre-bas.png) 0 100% no-repeat;
+}
+
+.boite div div {
+    background: url(/images/cadre-droite.png) 100% 0 no-repeat;
+}
+
+.boite div div div {
+    background: url(/images/cadre-bas-droite.png) 100% 100% no-repeat;
+    padding: 13px 16px 16px 13px;
+}
+
+.boite div div div div {
+    background: none;
+    padding: 0;
+}
+
+.bouton {
+    background: url(/images/bouton-gauche.png);
+    float: left;
+    margin: 7px;
+
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bouton span {
+    background: url(/images/bouton-droite.png) 100% 0 no-repeat;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: white;
+
+    display: block;
+}
+
+.bouton:hover,
+.bouton:focus,
+.bouton:active {
+    background-color: yellow;
+    background-position: 0 -30px;
+}
+.bouton:hover span,
+.bouton:focus span,
+.bouton:active span {
+background-position:  100% -30px;
+color: black;
+}
+#menu {
+    background: black url(/images/menu.png);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 29px;
+}
+#menu li {
+    float: left;
+    margin: 0 2px;
+}
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: #ffb400;
+    background: url(/images/menu-lien.png);
+    cursor: pointer;
+}
+#menu span {
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 10px;
+    background: url(/images/menu-lien-droite.png) 100% 0 no repeat;
+}
+#menu a:hover,
+#menu a:focus,
+#menu a:active {
+    color: black;
+    background-color: #ffb400;
+    background-position: 0 -21px;
+}
+#menu a:hover span,
+#menu a:focus span,
+#menu a:active span {
+    background-position: 100% -21px;
+}
+#menu .actuel {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#page {
+    background: white url(/images/sous-menu.png) repeat-y;
+    border: 1px solid black;
+}
+#sous-menu {
+    background: url(/images/sous-menu.png) repeat-y;
+    float: left;
+    width: 198px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+#contenu {
+    margin: 10px 10px 10px 209px;
+}
+#pied {
+    clear: both;
+    background: url(/images/pied.png);
+}
+#sous-menu a {
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    background: url(/images/sous-menu-lien.png);
+    text-align: center;
+    text-decoration: none;
+    color: #ffb400;
+    margin: 2px 0;
+}
+#sous-menu a:hover,
+#sous-menu a:focus,
+#sous-menu a:active {
+    color: black;
+    background-color: #ffb400;
+    background-position: 0 22px;
+}
+#sous-menu .actuel {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#pied {
+    clear: both;
+    border-top: 3px solid black;
+    background: url(/images/pied.png);
+    font-size: 12px;
+    padding-top: 9px;
+    height: 38px;
+    line-height: 19px;
+    text-align: center;
+    color: #444444;
+}
+#pied a {
+    color: black;
+}

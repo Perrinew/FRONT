@@ -1,0 +1,137 @@
+.container {
+    width: 850px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-size: 500%;
+}
+
+.box2 {
+    background-color: rgb(255, 0, 170);
+    width: 650px;
+    height: 100px;
+    float: right;
+    font-size: 500%;
+}
+
+.box3 {
+    background-color: yellow;
+    width: 650px;
+    height: 100px;
+    float: right;
+    font-size: 140%;
+}
+
+.box4 {
+    background-color: white;
+    width: 850px;
+    height: 100px;
+    float: left;
+    font-size: 400%;
+}
+
+.box5 {
+    background-color: aqua;
+    width: 650px;
+    height: 500px;
+    float: left;
+    font-size: 300%;
+
+}
+
+.box6 {
+    background-color: blueviolet;
+    width: 200px;
+    height: 500px;
+    float: right;
+    font-size: 500%;
+
+}
+
+.box7 {
+    background-color: rgb(98, 245, 13);
+    width: 850px;
+    height: 300px;
+    float: left;
+    font-size: 500%;
+}
+
+/*personnalisation liens*/
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*fin personnalisation lien*/
+
+/*partie responsive*/
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 100%;}
+        
+        .box4 {
+
+            background-color: blue;
+        }
+    
+    
+}
+
+@media only screen and (min-width:501px) and (max-width: 800px) {
+    .container{
+        width: 100%;
+    }
+    .box4 {
+        background-color: rgb(255, 145, 0);
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    
+    .box4 {
+        
+
+        background-color: rgb(235, 146, 220);
+    }
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7 {
+        width: 100%;
+
+    }
+}

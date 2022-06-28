@@ -1,0 +1,29 @@
+
+/* personnalisation lien */
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+/*fin personnalisation lien*/
+
+p {
+    color: blue;
+    font-size: 25px;
+}
